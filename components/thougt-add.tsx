@@ -95,7 +95,11 @@ export function ThougtAdd() {
   )
 }
 
-function MenuIcon(props) {
+interface MenuIconProps {
+  className?: string
+}
+
+function MenuIcon(props: MenuIconProps) {
   return (
     <svg
       {...props}
