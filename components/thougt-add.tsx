@@ -17,9 +17,10 @@ To read more about using these font, please visit the Next.js documentation:
 - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
+
+import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
 
 export function ThougtAdd() {
   return (
@@ -77,7 +78,7 @@ export function ThougtAdd() {
                 <div className="text-gray-900 dark:text-gray-100 font-medium">Reminder: Call Mom</div>
                 <div className="text-gray-500 dark:text-gray-400 text-sm">May 22, 2023</div>
               </div>
-              <p className="text-gray-700 dark:text-gray-300 mt-2">Don't forget to call Mom this weekend.</p>
+              <p className="text-gray-700 dark:text-gray-300 mt-2">Don&apos;t forget to call Mom this weekend.</p>
               <div className="flex justify-end mt-2 space-x-2">
                 <Button size="sm" variant="outline">
                   Edit
